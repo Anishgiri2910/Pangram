@@ -1,0 +1,8 @@
+def is_isogram(string):
+    pass	phrase = string
+			phrase=phrase.lower()
+			alphabet = "abcdefghijklmnopqrstuvwxyz"
+			if(bool(set(alphabet)-set(phrase))):
+    			return ('not pangram')
+			else:
+    			return ('pangram')
